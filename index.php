@@ -21,7 +21,7 @@ $oath6 = explode("\n", $oath6);
 <h2><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_security-token">Enable on PayPal</a></h2>
 <p>Serial: <?= $serial ?></p>
 <p>1st code: <?= $oath6[0] ?></p>
-<p>2st code: <?= $oath6[1] ?></p>
+<p>2nd code: <?= $oath6[1] ?></p>
 <h2>Barcode for Google Authenticator</h2>
 <div class="row">
 	<div class="col-md-12">
